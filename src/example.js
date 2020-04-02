@@ -3,7 +3,7 @@ import { Checkbox } from "baseui/checkbox";
 import { Label1, Paragraph1 } from "baseui/typography";
 
 export default () => {
-  const [checked, setChecked] = React.useState(true);
+  const [checked, setChecked] = React.useState(false);
   return (
     <>
       <Label1>Do you have Coronavirus?</Label1>
